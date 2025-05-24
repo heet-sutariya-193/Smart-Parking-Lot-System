@@ -1,0 +1,44 @@
+--- Smart Car Parking System Initializing ---
+Timestamp: 1748104810
+Initializing 50 parking spaces...
+Space initialization complete.
+Loading initial data from file.txt...
+CRITICAL Error: Space 25 not found in tree during load (line 2).
+Info: Vehicle LMN321 marked as parked in space 30 at 2024-05-05 12:00:00 (from file line 3).
+CRITICAL Error: Space 40 not found in tree during load (line 4).
+CRITICAL Error: Space 41 not found in tree during load (line 5).
+CRITICAL Error: Space 14 not found in tree during load (line 8).
+CRITICAL Error: Space 18 not found in tree during load (line 10).
+Info: Vehicle DEF654 marked as parked in space 1 at 2024-06-10 07:45:00 (from file line 12).
+Initial data loading complete.
+
+>>> User selected option: 3 <<<
+
+--- Vehicles Sorted by Number of Parkings (Descending) ---
+ VNum: DEF654         | Owner: Emily                | Mem: Gold    | Total Hrs:  200.00 | Parkings:  19 | Paid: 17500.00 | Parked in: 1   | Arrived: 2024-06-10 07:45:00 | Last Left: N/A
+ VNum: STU890         | Owner: Henry                | Mem: Premium | Total Hrs:  100.00 | Parkings:   8 | Paid: 10000.00 | Parked in: 0   | Arrived: N/A | Last Left: 2024-10-06 16:15:00
+ VNum: ABC123         | Owner: John                 | Mem: Premium | Total Hrs:  100.00 | Parkings:   6 | Paid:  9860.00 | Parked in: 0   | Arrived: N/A | Last Left: N/A
+ VNum: ACC121         | Owner: Liam                 | Mem: Premium | Total Hrs:  100.00 | Parkings:   5 | Paid: 15000.00 | Parked in: 0   | Arrived: N/A | Last Left: 2023-12-13 01:30:00
+ VNum: AAA121         | Owner: Hoe                  | Mem: Gold    | Total Hrs:  200.00 | Parkings:   1 | Paid:  2923.00 | Parked in: 0   | Arrived: N/A | Last Left: N/A
+ VNum: GHI987         | Owner: David                | Mem: None    | Total Hrs:    5.83 | Parkings:   1 | Paid:   350.00 | Parked in: 0   | Arrived: N/A | Last Left: 2024-07-18 20:40:00
+ VNum: LMN321         | Owner: Charlie              | Mem: None    | Total Hrs:    1.50 | Parkings:   1 | Paid:     0.00 | Parked in: 30  | Arrived: 2024-05-05 12:00:00 | Last Left: N/A
+ VNum: MNO567         | Owner: Grace                | Mem: None    | Total Hrs:   13.33 | Parkings:   1 | Paid:   800.00 | Parked in: 0   | Arrived: N/A | Last Left: 2024-09-30 21:45:00
+ VNum: PQR789         | Owner: Bob                  | Mem: None    | Total Hrs:    8.33 | Parkings:   1 | Paid:   500.00 | Parked in: 0   | Arrived: N/A | Last Left: 2024-04-21 18:20:00
+ VNum: VWX123         | Owner: Ivy                  | Mem: None    | Total Hrs:   25.00 | Parkings:   1 | Paid:  1500.00 | Parked in: 0   | Arrived: N/A | Last Left: 2024-11-13 23:30:00
+--- End of Report ---
+
+>>> User selected option: 4 <<<
+
+--- Report: Vehicles by Amount Paid Range ---
+--- Vehicles with Total Amount Paid between 0.00 and 300000.00 (Sorted Descending by Amount) ---
+ VNum: DEF654         | Owner: Emily                | Mem: Gold    | Total Hrs:  200.00 | Parkings:  19 | Paid: 17500.00 | Parked in: 1   | Arrived: 2024-06-10 07:45:00 | Last Left: N/A
+ VNum: ACC121         | Owner: Liam                 | Mem: Premium | Total Hrs:  100.00 | Parkings:   5 | Paid: 15000.00 | Parked in: 0   | Arrived: N/A | Last Left: 2023-12-13 01:30:00
+ VNum: STU890         | Owner: Henry                | Mem: Premium | Total Hrs:  100.00 | Parkings:   8 | Paid: 10000.00 | Parked in: 0   | Arrived: N/A | Last Left: 2024-10-06 16:15:00
+ VNum: ABC123         | Owner: John                 | Mem: Premium | Total Hrs:  100.00 | Parkings:   6 | Paid:  9860.00 | Parked in: 0   | Arrived: N/A | Last Left: N/A
+ VNum: AAA121         | Owner: Hoe                  | Mem: Gold    | Total Hrs:  200.00 | Parkings:   1 | Paid:  2923.00 | Parked in: 0   | Arrived: N/A | Last Left: N/A
+ VNum: VWX123         | Owner: Ivy                  | Mem: None    | Total Hrs:   25.00 | Parkings:   1 | Paid:  1500.00 | Parked in: 0   | Arrived: N/A | Last Left: 2024-11-13 23:30:00
+ VNum: MNO567         | Owner: Grace                | Mem: None    | Total Hrs:   13.33 | Parkings:   1 | Paid:   800.00 | Parked in: 0   | Arrived: N/A | Last Left: 2024-09-30 21:45:00
+ VNum: PQR789         | Owner: Bob                  | Mem: None    | Total Hrs:    8.33 | Parkings:   1 | Paid:   500.00 | Parked in: 0   | Arrived: N/A | Last Left: 2024-04-21 18:20:00
+ VNum: GHI987         | Owner: David                | Mem: None    | Total Hrs:    5.83 | Parkings:   1 | Paid:   350.00 | Parked in: 0   | Arrived: N/A | Last Left: 2024-07-18 20:40:00
+ VNum: LMN321         | Owner: Charlie              | Mem: None    | Total Hrs:    1.50 | Parkings:   1 | Paid:     0.00 | Parked in: 30  | Arrived: 2024-05-05 12:00:00 | Last Left: N/A
+--- End of Report ---
