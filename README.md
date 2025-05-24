@@ -70,16 +70,10 @@ You need a C compiler installed on your system (e.g., GCC for Linux/Windows, Cla
     ```
     (Replace `your-username/smart-car-parking-system.git` with your actual repository URL and `smart-car-parking-system` with your chosen repository name.)
 
-2.  **Rename the C Source File:**
-    * Rename the source file `dspdassign2.c` to `smart_parking_system.c` for better clarity and alignment with the project name.
-        ```bash
-        mv dspdassign2.c smart_parking_system.c
-        ```
+2.  **Ensure `smart_parking_system.c` and `file.txt` are Present:**
+    * Make sure the C source file (`smart_parking_system.c`) and the input data file (`file.txt`) are located in the same directory.
 
-3.  **Ensure `file.txt` is Present:**
-    * Make sure the `file.txt` input file is located in the same directory as `smart_parking_system.c`. This file is crucial for loading initial system data.
-
-4.  **Compile the Code:**
+3.  **Compile the Code:**
     * Open your terminal or command prompt.
     * Navigate to the directory where you cloned/downloaded the project.
     * Compile the C file using a command like GCC:
@@ -89,15 +83,14 @@ You need a C compiler installed on your system (e.g., GCC for Linux/Windows, Cla
         * `-o parking_system`: Specifies the output executable name as `parking_system`.
         * `-lm`: Links the math library, necessary for functions like `ceil` and `fmax` used in the code.
 
-5.  **Run the Executable:**
+4.  **Run the Executable:**
     * Execute the compiled program from your terminal:
         ```bash
         ./parking_system
         ```
     * On Windows, you might need to type `parking_system.exe`.
 
-6.  **Interact with the System:**
+5.  **Interact with the System:**
     * The program will display a menu in your terminal.
     * Follow the prompts to interact with the parking system (e.g., enter vehicles, exit vehicles, generate reports).
     * All reports and significant system messages will be written to `output.txt` in the same directory.
-
